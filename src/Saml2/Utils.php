@@ -956,6 +956,7 @@ class Utils
      */
     public static function query(DOMDocument $dom, $query, ?DOMElement $context = null)
     {
+        
         $xpath = new DOMXPath($dom);
         $xpath->registerNamespace('samlp', Constants::NS_SAMLP);
         $xpath->registerNamespace('saml', Constants::NS_SAML);
