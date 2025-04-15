@@ -1,6 +1,6 @@
 {
-    "name": "onelogin/php-saml",
-    "description": "OneLogin PHP SAML Toolkit",
+    "name": "venngo/php-saml",
+    "description": "Venngo branch of OneLogin PHP SAML Toolkit",
     "license": "MIT",
     "homepage": "https://developers.onelogin.com/saml/php",
     "keywords": ["saml", "saml2", "onelogin"],
