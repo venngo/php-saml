@@ -3,7 +3,7 @@
     "description": "Venngo branch of OneLogin PHP SAML Toolkit",
     "license": "MIT",
     "homepage": "https://developers.onelogin.com/saml/php",
-    "keywords": ["saml", "saml2", "onelogin"],
+    "keywords": ["saml", "saml2", "venngo"],
     "autoload": {
         "psr-4": {
             "OneLogin\\": "src/"
@@ -38,5 +38,7 @@
         "ext-curl": "Install curl lib to be able to use the IdPMetadataParser for parsing remote XMLs",
         "ext-dom": "Install xml lib",
         "ext-zlib": "Install zlib"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
