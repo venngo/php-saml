@@ -1,5 +1,5 @@
 {
-    "name": "venngo/php-saml",
+    "name": "onelogin/php-saml",
     "description": "Venngo branch of OneLogin PHP SAML Toolkit",
     "license": "MIT",
     "homepage": "https://developers.onelogin.com/saml/php",
@@ -39,6 +39,9 @@
         "ext-dom": "Install xml lib",
         "ext-zlib": "Install zlib"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "extra": {
+        "branch-alias": {
+        "dev-venngo_4.0.2": "4.0.2"
+        }
+    }
 }
